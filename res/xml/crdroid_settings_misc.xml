@@ -108,4 +108,11 @@
             android:targetClass="org.omnirom.omnijaws.SettingsActivity" />
     </Preference>
 
+    <!-- Ignore secure window -->
+     <com.crdroid.settings.preferences.SecureSettingSwitchPreference
+        android:key="window_ignore_secure"
+        android:title="@string/laboratory_ignore_window_secure_title"
+        android:summary="@string/laboratory_ignore_window_secure_summary"
+        android:defaultValue="false"/>
+
 </PreferenceScreen>
